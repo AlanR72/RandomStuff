@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 40px;
+    list-style: none;
+    padding: 20px;
+    background-color: lightgray;
+}
+li a {
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.wrapper{
+    border: 2px solid black;
+    width: 60%;
+    height: 60vh;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+    background-color: gray;
+    
+}
