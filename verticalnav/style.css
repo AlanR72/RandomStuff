@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 50px auto;
+    text-align: center;
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    flex-direction: column;
+    margin: 20px;
+    background-color: gray;;
+    width: 30%;
+    border: 2px solid black;
+    height: 100%;
+   
+}
+li{
+    padding: 10px;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    
+}
+li:last-child{
+    border: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
